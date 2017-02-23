@@ -1,2 +1,2 @@
 # net-interceptor
-An interceptor for connection via Net in native node lib
+An interceptor for connections via Net in native node lib
