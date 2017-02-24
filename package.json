@@ -1,0 +1,40 @@
+{
+  "name": "net-interceptor",
+  "version": "0.1.0",
+  "description": "An interceptor for connections via Net in native node lib.",
+  "main": "./lib/interceptor.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/.bin/_mocha -- --require should --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viRingbells/net-interceptor.git"
+  },
+  "keywords": [
+    "net",
+    "interceptor",
+    "proxy",
+    "stub",
+    "mock",
+    "http",
+    "socket"
+  ],
+  "author": "Sun Haohao",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/viRingbells/net-interceptor/issues"
+  },
+  "homepage": "https://github.com/viRingbells/net-interceptor#readme",
+  "dependencies": {
+    "debug": "^2.6.1",
+    "del": "^2.2.2",
+    "mkdirp": "^0.5.1",
+    "randomatic": "^1.1.6"
+  },
+  "devDependencies": {
+    "got": "^6.7.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0"
+  }
+}
